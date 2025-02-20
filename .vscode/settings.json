@@ -6,6 +6,10 @@
         "-p",
         "test_*.py"
     ],
+    "python.analysis.extraPaths": [
+        "./src",
+        "./test"
+    ],
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true
 }
